@@ -26,7 +26,10 @@ body {
 .navbar-inverse .navbar-nav>li>a {
     color: black;
     font-size: large;
-    left: 380px;
+}
+
+.nav>li {
+    left: 345px;
 }
 
 html {
@@ -51,4 +54,8 @@ hr {
     width: 400px;
     border-top: 1px solid black;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#about {
+    margin: 2%;
 }
