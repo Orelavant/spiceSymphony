@@ -1,15 +1,13 @@
 body {
-    background-size: cover;
-    background-position: 25% 40%;
     font-family: Lato, sans-serif;
-    background-color: #FF9800;
+    background-color: #FF5607;
+    color: black;
 }
 
 #header {
     margin-top: 0;
     text-align: center;
-    padding: 20px;
-    background-color: #fa260f;
+    background-color: #FFC100;
     color: black;
 }
 
@@ -17,10 +15,16 @@ body {
         margin-bottom: -12px;
     }
 
+#logo {
+    height: 25%;
+    width: 25%;
+}
+
 .navbar {
-    background-color: #FF5607;
+    background-color: #FF9800;
     border: none;
     border-radius: 0 !important;
+    margin: 0%;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -36,13 +40,32 @@ html {
     height: 100%;
 }
 
+#intro-pic {
+    background-image: url(media/display.jpg);
+    background-repeat: no-repeat;
+    background-position: 5% 42%;
+    background-color: #FF9800;
+    background-size: cover;
+    margin: 1%;
+}
+
 #content {
     text-align: center;
-    padding-top: 35%;
-    padding-bottom: 15%;
+    color: white;
+    padding-top: 15%;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.thumbnail {
+    background-color: #FFC100;
+    border: solid #FFC100 1px;
+}
+
+.spice-text {
+    font-weight: bold;
+    padding-top: 1%;
 }
 
 h1 {
@@ -52,7 +75,7 @@ h1 {
 
 hr {
     width: 400px;
-    border-top: 1px solid black;
+    border-top: 1px solid white;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
