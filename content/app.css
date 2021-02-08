@@ -36,6 +36,12 @@ body {
     left: 345px;
 }
 
+@media screen and (max-width: 500px) {
+    .nav>li {
+        left: 0;
+    }
+}
+
 html {
     height: 100%;
 }
@@ -81,4 +87,5 @@ hr {
 
 #about {
     margin: 2%;
+    text-align: center;
 }
