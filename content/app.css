@@ -5,19 +5,16 @@ body {
 }
 
 #header {
-    margin-top: 0;
     text-align: center;
     background-color: #FFC100;
     color: black;
+    margin-bottom: -20px;
+    padding-top: 1%;
 }
 
-    #header h1 {
-        margin-bottom: -12px;
-    }
-
 #logo {
-    height: 25%;
-    width: 25%;
+    height: 35%;
+    width: 35%;
 }
 
 .navbar {
@@ -33,7 +30,7 @@ body {
 }
 
 .nav>li {
-    left: 345px;
+    left: 390px;
 }
 
 @media screen and (max-width: 500px) {
@@ -52,16 +49,42 @@ html {
     background-position: 5% 42%;
     background-color: #FF9800;
     background-size: cover;
-    margin: 1%;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 
-#content {
+#subtitle {
     text-align: center;
-    color: white;
-    padding-top: 15%;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.2),
-                 0px 8px 13px rgba(0,0,0,0.1),
-                 0px 18px 23px rgba(0,0,0,0.1);
+    font-weight: 500;
+    margin-bottom: -12px;
+    margin-top: 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 5em;
+}
+
+hr {
+    width: 300px;
+    border-top: 1px solid black;
+    padding-bottom: 2%;
+}
+
+#about-img {
+    margin: 1%;
+    float: left;
+    padding-bottom: 1%;
+}
+
+#about-desc {
+    margin: 1%;
+    float: left;
+    padding-bottom: 1%;
+}
+
+#spices {
+    margin-top: 1%;
 }
 
 .thumbnail {
@@ -74,18 +97,8 @@ html {
     padding-top: 1%;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: 5em;
-}
-
-hr {
-    width: 400px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
-#about {
-    margin: 2%;
-    text-align: center;
+#contact-info {
+    margin: 1%;
+    float: left;
+    padding-bottom: 1%;
 }
