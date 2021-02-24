@@ -1,0 +1,5 @@
+Known Issues/Future Additions
+
+1. Unsure on how to dynamically center navbar elements.
+2. Need to add accesibility text to photos.
+3. Add favicon.

@@ -33,12 +33,6 @@ body {
     left: 390px;
 }
 
-@media screen and (max-width: 500px) {
-    .nav>li {
-        left: 0;
-    }
-}
-
 html {
     height: 100%;
 }
@@ -51,6 +45,18 @@ html {
     background-size: cover;
     padding-top: 15%;
     padding-bottom: 15%;
+
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#intro-pic hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
 }
 
 #subtitle {
@@ -101,4 +107,16 @@ hr {
     margin: 1%;
     float: left;
     padding-bottom: 1%;
+}
+
+@media screen and (max-width: 800px) {
+    .nav>li {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav>li {
+        left: 0;
+    }
 }
