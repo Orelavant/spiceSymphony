@@ -43,12 +43,10 @@ html {
     background-position: 5% 42%;
     background-color: #FF9800;
     background-size: cover;
-    padding-top: 15%;
-    padding-bottom: 15%;
 
     color: white;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 10%;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
@@ -77,16 +75,20 @@ hr {
     padding-bottom: 2%;
 }
 
+#home-desc {
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
 #about-img {
     margin: 1%;
     float: left;
-    padding-bottom: 1%;
 }
 
 #about-desc {
     margin: 1%;
-    float: left;
-    padding-bottom: 1%;
+    padding-top: 0.8%;
 }
 
 #spices {
