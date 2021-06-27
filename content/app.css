@@ -1,8 +1,8 @@
 body {
     font-family: Lato, sans-serif;
-    background-color: #FF5607;
+    background-color: #ffffff;
     color: black;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 #header {
@@ -31,31 +31,11 @@ body {
 }
 
 .nav>li {
-    left: 390px;
+    left: 350px;
 }
 
 html {
     height: 100%;
-}
-
-#intro-pic {
-    background-image: url(media/display.jpg);
-    background-repeat: no-repeat;
-    background-position: 5% 42%;
-    background-color: #FF9800;
-    background-size: cover;
-
-    color: white;
-    text-align: center;
-    padding-top: 10%;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.1),
-                 0px 18px 23px rgba(0,0,0,0.1);
-}
-
-#intro-pic hr {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
 }
 
 #subtitle {
@@ -76,6 +56,29 @@ hr {
     padding-bottom: 2%;
 }
 
+#intro-pic {
+    background-image: url(media/display.jpg);
+    background-repeat: no-repeat;
+    background-position: 5% 42%;
+    background-color: #FF9800;
+    background-size: cover;
+
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* #intro-pic hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+} */
+
+#notice {
+    font-weight: 700;
+}
+
 #home-desc {
     padding-bottom: 1%;
     padding-left: 1%;
@@ -83,13 +86,19 @@ hr {
 }
 
 #about-img {
-    margin: 1%;
+    padding: 1%;
     float: left;
 }
 
 #about-desc {
     margin: 1%;
     padding-top: 0.8%;
+}
+
+#order-desc {
+    margin: 1%;
+    padding-top: 0.8%;
+    font-weight: 700;
 }
 
 #spices {
@@ -108,8 +117,7 @@ hr {
 
 #contact-info {
     margin: 1%;
-    float: left;
-    padding-bottom: 1%;
+    padding-top: 0.8%;
 }
 
 @media screen and (max-width: 800px) {
