@@ -31,7 +31,7 @@ body {
 }
 
 .nav>li {
-    left: 355px;
+    left: 390px;
 }
 
 html {
@@ -109,6 +109,17 @@ hr {
 .spice-text {
     font-weight: bold;
     padding-top: 1%;
+}
+
+.snipcart-add-item {
+    background-color: #FF9800;
+    border: none;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.snipcart-add-item:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 #contact-info {

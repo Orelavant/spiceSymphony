@@ -8,12 +8,15 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.css" />
+    <link rel="preconnect" href="https://app.snipcart.com" />
+    <link rel="preconnect" href="https://cdn.snipcart.com" />
 </head>
 
 <body>
   <div id="header">
     <img id="logo" src="media/logo.png" alt="The brand logo for Spice Symphony.">
-    <h3 id="subtitle">The aromas of my childhood.</h3>
+    <h3 id="subtitle">The Aromas of My Childhood</h3>
     <hr>
   </div>
 
@@ -33,7 +36,6 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="spices.html">Spices</a></li>
-              <li><a href="order.html">Order</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -42,100 +44,276 @@
 
   <div class="container" id="spices">
     <div class="row">
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
             <div class="thumbnail spice-pic">
                 <img src="media/bottlem.jpg">
-                <p class="spice-text"> Bottle Masala</p>
+                <p class="spice-text"> Bottle Masala - $12</p>
+
+                <button class="snipcart-add-item"
+                  data-item-id="bottlem"
+                  data-item-price="12"
+                  data-item-url="/spices/bottlem"
+                  data-item-description="Bottle Masala"
+                  data-item-image="media/bottlem.jpg"
+                  data-item-name="Bottle Masala">
+                  Add to cart
+                </button>
             </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
             <div class="thumbnail spice-pic">
               <img src="media/mfcm.jpg">
-              <p class="spice-text"> Malaysian Fish Curry Malasa</p>
+              <p class="spice-text"> Malaysian Fish Curry Malasa - $6</p>
+
+              <button class="snipcart-add-item"
+                data-item-id="mfcm"
+                data-item-price="6"
+                data-item-url="/spices/mfcm"
+                data-item-description="Malaysian Fish Curry Malasa"
+                data-item-image="media/mfcm.jpg"
+                data-item-name="Malaysian Fish Curry Malasa">
+                Add to cart
+              </button>
             </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/cajun.jpg">
-            <p class="spice-text"> Cajun Seasoning</p>
+            <p class="spice-text"> Cajun Seasoning - $7.25</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="cajun"
+              data-item-price="7.25"
+              data-item-url="/spices/cajun"
+              data-item-description="Cajun Seasoning"
+              data-item-image="media/cajun.jpg"
+              data-item-name="Cajun Seasoning">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/andhracc.jpg">
-            <p class="spice-text"> Andhra Chicken Curry</p>
+            <p class="spice-text"> Andhra Chicken Masala - $5</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="andhracc"
+              data-item-price="5"
+              data-item-url="/spices/andhracc"
+              data-item-description="Andhra Chicken Masala"
+              data-item-image="media/andhracc.jpg"
+              data-item-name="Andhra Chicken Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/dabeli.jpg">
-            <p class="spice-text"> Dabeli Masala</p>
+            <p class="spice-text"> Dabeli Masala - $8</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="dabeli"
+              data-item-price="8"
+              data-item-url="/spices/dabeli"
+              data-item-description="Dabeli Masala"
+              data-item-image="media/dabeli.jpg"
+              data-item-name="Dabeli Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/chaat.jpg">
-            <p class="spice-text"> Chaat Masala</p>
+            <p class="spice-text"> Chaat Masala - $8</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="chaat"
+              data-item-price="8"
+              data-item-url="/spices/chaat"
+              data-item-description="Chaat Masala"
+              data-item-image="media/chaat.jpg"
+              data-item-name="Chaat Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/mixm.jpg">
-            <p class="spice-text"> Mix Masala</p>
+            <p class="spice-text"> Mix Masala - $6</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="mixm"
+              data-item-price="6"
+              data-item-url="/spices/mixm"
+              data-item-description="Mix Masala"
+              data-item-image="media/mixm.jpg"
+              data-item-name="Mix Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/taco.jpg">
-            <p class="spice-text"> Taco Seasoning</p>
+            <p class="spice-text"> Taco Seasoning - $5</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="taco"
+              data-item-price="5"
+              data-item-url="/spices/taco"
+              data-item-description="Taco Seasoning"
+              data-item-image="media/taco.jpg"
+              data-item-name="Taco Seasoning">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/sazon.jpg">
-            <p class="spice-text"> Sazon Seasoning</p>
+            <p class="spice-text"> Sazon Seasoning - $5</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="sazon"
+              data-item-price="5"
+              data-item-url="/spices/sazon"
+              data-item-description="Sazon Seasoning"
+              data-item-image="media/sazon.jpg"
+              data-item-name="Sazon Seasoning">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/fajita.jpg">
-            <p class="spice-text"> Fajita Seasoning</p>
+            <p class="spice-text"> Fajita Seasoning - $5</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="fajita"
+              data-item-price="5"
+              data-item-url="/spices/fajita"
+              data-item-description="Fajita Seasoning"
+              data-item-image="media/fajita.jpg"
+              data-item-name="Fajita Seasoning">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/garamm.jpg">
-            <p class="spice-text"> Garam Masala</p>
+            <p class="spice-text"> Garam Masala - $8</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="garamm"
+              data-item-price="8"
+              data-item-url="/spices/garamm"
+              data-item-description="Garam Masala"
+              data-item-image="media/garamm.jpg"
+              data-item-name="Garam Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/maggim.jpg">
-            <p class="spice-text"> Maggi Masala</p>
+            <p class="spice-text"> Maggic Masala - $6</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="maggim"
+              data-item-price="6"
+              data-item-url="/spices/maggim"
+              data-item-description="Maggic Masala"
+              data-item-image="media/maggim.jpg"
+              data-item-name="Maggic Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/tikkam.jpg">
-            <p class="spice-text"> Tikka Masala</p>
+            <p class="spice-text"> Tikka Masala - $7</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="tikkam"
+              data-item-price="7"
+              data-item-url="/spices/tikkam"
+              data-item-description="Tikka Masala"
+              data-item-image="media/tikkam.jpg"
+              data-item-name="Tikka Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/godam.jpg">
-            <p class="spice-text"> Goda Masala</p>
+            <p class="spice-text"> Goda Masala - $6</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="godam"
+              data-item-price="6"
+              data-item-url="/spices/godam"
+              data-item-description="Goda Masala"
+              data-item-image="media/godam.jpg"
+              data-item-name="Goda Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/tandoorim.jpg">
-            <p class="spice-text"> Tandoori Masala</p>
+            <p class="spice-text"> Tandoori Masala - $7</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="tandoorim"
+              data-item-price="7"
+              data-item-url="/spices/tandoorim"
+              data-item-description="Tandoori Masala"
+              data-item-image="media/tandoorim.jpg"
+              data-item-name="Tandoori Masala">
+              Add to cart
+            </button>
           </div>
         </div>
+
         <div class="col-lg-3 col-sm-6 col-xs-6">
           <div class="thumbnail spice-pic">
             <img src="media/kklm.jpg">
-            <p class="spice-text"> Kolhapuri Kanda Lasun Masala</p>
+            <p class="spice-text"> Kolhapuri Kanda Lasun Masala - $10</p>
+
+            <button class="snipcart-add-item"
+              data-item-id="kklm"
+              data-item-price="10"
+              data-item-url="/spices/kklm"
+              data-item-description="Kolhapuri Kanda Lasun Masala"
+              data-item-image="media/kklm.jpg"
+              data-item-name="Kolhapuri Kanda Lasun Masala">
+              Add to cart
+            </button>
           </div>
         </div>
     </div>
@@ -143,5 +321,7 @@
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+  <div hidden id="snipcart" data-api-key="ZjQ1MmE1MGItNjRiYi00YWQwLWI3YTQtMmViM2I2NmIwODc4NjM3NzYzMzEzNjg0NDg4ODU4" data-config-modal-style="side"></div>
 </body>
 </html>
