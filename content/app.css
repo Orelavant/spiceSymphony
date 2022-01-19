@@ -133,6 +133,27 @@ hr {
     padding-top: 0.8%;
 }
 
+#cart {
+    display: inline-block;
+    position: fixed;
+    bottom: 0.5em;
+    right: 1em;
+    font-size: 2em;
+    transition-duration: 0.4s;
+}
+
+#cart-icon {
+    color: #FF9800;
+}
+
+#cart:hover {
+    text-shadow: 2px 2px 5px black;
+}
+
+#cart-info {
+    color: black;
+}
+
 @media screen and (max-width: 800px) {
     .nav>li {
         left: 0;
